@@ -1,0 +1,127 @@
+{
+  "site": {
+    "title": "Qivbuild",
+    "phone": "0343 0107773",
+    "phoneLink": "tel:+923430107773",
+    "whatsapp": "https://wa.me/923430107773",
+    "email": "info@qivbuild.site",
+    "address": "DHA Phase 8 Lahore 54000 Pakistan",
+    "hours": "Open Closes 8 PM",
+    "domain": "https://qivbuild.site",
+    "metaDescription": "Qivbuild Building Consultant in DHA Phase 8 Lahore - Drawing Plan, Gray Structure, Interior, Exterior & Renovation. LDA Approval Drawings, cost estimate & free consultation. Call 0343 0107773",
+    "keywords": "Building Consultant DHA Phase 8 Lahore, Drawing Plan Lahore, Gray Structure Lahore, Interior Design Lahore, LDA Approval Drawings",
+    "facebookDomainVerify": "",
+    "googleSiteVerify": ""
+  },
+  "background": {
+    "mode": "hidden",
+    "note": "Background settings website par nazar nahi ayengi - sirf admin me"
+  },
+  "home": {
+    "heroTitle": "From idea to iron built body",
+    "heroText": "Every building is a body and every body begins with a decision",
+    "content": "Your building deserves a body built to last"
+  },
+  "about": {
+    "title": "About Qivbuild",
+    "text": "Building consultant and contractor in DHA Phase 8 Lahore 54000 Pakistan"
+  },
+  "services": [
+    {
+      "name": "Drawing Plan",
+      "text": "Blueprint Physique ka kaam design se construction tak"
+    },
+    {
+      "name": "Gray Structure",
+      "text": "Iron Frame Core Sculpting"
+    },
+    {
+      "name": "Interior Design",
+      "text": "Skin Sculpting"
+    },
+    {
+      "name": "Exterior Design",
+      "text": "Chehra Sajayen"
+    },
+    {
+      "name": "Renovation",
+      "text": "Body Rebirth"
+    }
+  ],
+  "footerCategories": [
+    "Drawing Plan",
+    "Gray Structure",
+    "Interior Design",
+    "Exterior Design",
+    "Renovation"
+  ],
+  "pictureCategories": [
+    "Resident",
+    "Commercial",
+    "Industrial",
+    "Town",
+    "Banquet",
+    "Market"
+  ],
+  "socialShares": [
+    {
+      "name": "Facebook",
+      "icon": "f",
+      "shareUrl": "https://www.facebook.com/sharer/sharer.php?u="
+    },
+    {
+      "name": "WhatsApp",
+      "icon": "WA",
+      "shareUrl": "https://wa.me/?text="
+    },
+    {
+      "name": "Instagram",
+      "icon": "IG",
+      "shareUrl": "https://www.instagram.com/"
+    },
+    {
+      "name": "Threads",
+      "icon": "@",
+      "shareUrl": "https://www.threads.net/"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "in",
+      "shareUrl": "https://www.linkedin.com/sharing/share-offsite/?url="
+    },
+    {
+      "name": "X",
+      "icon": "X",
+      "shareUrl": "https://twitter.com/intent/tweet?url="
+    },
+    {
+      "name": "Pinterest",
+      "icon": "P",
+      "shareUrl": "https://pinterest.com/pin/create/button/?url="
+    },
+    {
+      "name": "Telegram",
+      "icon": "TG",
+      "shareUrl": "https://t.me/share/url?url="
+    },
+    {
+      "name": "Email",
+      "icon": "@",
+      "shareUrl": "mailto:?body="
+    },
+    {
+      "name": "Copy Link",
+      "icon": "🔗",
+      "shareUrl": "copy"
+    }
+  ],
+  "gallery": [],
+  "blogPosts": [],
+  "heroSlides": [],
+  "contact": {
+    "call": "0343 0107773",
+    "whatsapp": "https://wa.me/923430107773",
+    "website": "https://qivbuild.site",
+    "map": "https://www.google.com/maps/search/?api=1&query=DHA+Phase+8+Lahore+54000+Pakistan"
+  }
+}
