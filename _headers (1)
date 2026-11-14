@@ -1,0 +1,8 @@
+/site-data.json
+  X-Robots-Tag: noindex, nofollow
+/worker.js
+  X-Robots-Tag: noindex, nofollow
+/wrangler.toml
+  X-Robots-Tag: noindex, nofollow
+/admin.html
+  X-Robots-Tag: noindex, nofollow
