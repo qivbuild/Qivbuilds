@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><script src="/qiv-engine.js"></script><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Post | Qivbuild - Building Consultant DHA Phase 8 Lahore</title>
+<meta name="description" content="Qivbuild post - Drawing Plan Gray Structure Interior Exterior Renovation DHA Phase 8 Lahore">
+<link rel="canonical" href="https://qivbuild.site/post.html">
+<meta property="og:url" content="https://qivbuild.site/post.html"><meta property="og:type" content="article"><meta property="og:site_name" content="Qivbuild">
+<!-- Facebook Domain Verify + Google Verify : Admin Panel > Settings se auto lagta hai -->
+<meta name="facebook-domain-verification" content="">
+<meta name="google-site-verification" content="">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Qivbuild Post","author":{"@type":"Organization","name":"Qivbuild"},"publisher":{"@type":"Organization","name":"Qivbuild"},"about":{"@type":"ProfessionalService","name":"Qivbuild","telephone":"+923430107773","address":{"@type":"PostalAddress","streetAddress":"DHA Phase 8","addressLocality":"Lahore","addressCountry":"PK"}}}</script>
+<style>*{box-sizing:border-box}body{margin:0;font-family:"Google Sans",Roboto,Arial,sans-serif;background:#fff;color:#1f1f1f}.wrap{max-width:900px;margin:0 auto;padding:16px}.tabs{display:flex;gap:8px;overflow-x:auto;padding:10px 0}.tabs a{flex:none;padding:10px 18px;border-radius:20px;background:#e8eefc;color:#0b57d0;font-weight:500;text-decoration:none}.tabs a.on{box-shadow:inset 0 0 0 2px #1f1f1f}img.hero{width:100%;height:auto;max-height:520px;object-fit:cover;border-radius:16px;cursor:zoom-in;background:#f1f5f9}.pill{display:inline-block;padding:10px 18px;border-radius:20px;border:1px solid #dadce0;color:#0b57d0;font-weight:500;text-decoration:none;margin:4px 4px 4px 0;background:#fff}.pill.f{background:#0b57d0;color:#fff;border-color:#0b57d0}.meta{color:#5f6368;font-size:14px}.cat{display:inline-block;background:#e8eefc;padding:6px 12px;border-radius:20px;font-size:13px;margin:4px 4px 0 0}.lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:99}.lb.on{display:flex}.lb img{max-width:96vw;max-height:92vh;object-fit:contain}.share{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.share a,.share button{padding:9px 14px;border-radius:20px;border:1px solid #dadce0;background:#fff;color:#0b57d0;font-weight:600;cursor:pointer;text-decoration:none;font-size:14px}.views{background:#f8f9fa;border-radius:12px;padding:12px;margin:12px 0}.views b{font-size:18px}</style></head>
+<body><div class="wrap">
+<div><h1 style="margin:0">Qivbuild</h1><div style="color:#5f6368">5.0 ★ · Building consultant · <span>Open</span></div></div>
+<div class="tabs" id="tabs"><a href="https://qivbuild.site/">Home</a><a href="https://qivbuild.site/about.html">About</a><a href="https://qivbuild.site/services.html">Services</a><a href="https://qivbuild.site/byowner.html">By Owner</a><a href="https://qivbuild.site/gallery.html">Gallery</a><a href="https://qivbuild.site/blog.html">Blog</a><a href="https://qivbuild.site/reviews.html">Reviews</a><a href="https://qivbuild.site/contact.html">Contact</a></div>
+<div id="postBox"><p>Post load ho raha hai...</p></div>
+<div class="share" id="shareBox"></div>
+<div class="views" id="viewBox"></div>
+<div style="margin-top:20px"><a class="pill" href="https://qivbuild.site/blog.html">← All Posts</a><a class="pill" href="https://qivbuild.site/gallery.html">Gallery</a><a class="pill" href="https://qivbuild.site/contact.html">Contact</a><a class="pill" href="https://wa.me/923430107773">WhatsApp</a><a class="pill" href="tel:+923430107773">Call 0343 0107773</a></div>
+<div id="moreBox"></div></div>
+<div class="lb" id="lb" onclick="this.classList.remove('on')"><img id="lbImg"></div>
+<script>
+function slugify(s){return String(s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,80)||'post'}
+function getParam(n){return new URLSearchParams(location.search).get(n)||''}
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+async function load(){
+ var id=getParam('id'),slug=getParam('slug'),data=null;
+ try{var r=await fetch('/api/data');if(r.ok)data=await r.json();}catch(e){}
+ if(!data){try{var r2=await fetch('site-data.json');if(r2.ok)data=await r2.json();}catch(e){}}
+ 
+ var posts=[].concat(data&&data.blogPosts||[],data&&data.gallery||[]);
+ var post=null;
+ if(id)post=posts.find(p=>String(p.id)===String(id)||slugify(p.title)===String(id));
+ if(!post&&slug)post=posts.find(p=>slugify(p.title)===slug||String(p.slug)===slug);
+ if(!post&&posts.length)post=posts[0];
+ if(!post){document.getElementById('postBox').innerHTML='<h2>Post nahi mila</h2><p>Ye post delete ho gaya hai ya link galat hai.</p>';return;}
+ var pslug=post.slug||slugify(post.title);
+ var postUrl='https://qivbuild.site/post.html?slug='+encodeURIComponent(pslug);
+ var can=document.querySelector('link[rel="canonical"]');if(can)can.href=postUrl;
+ document.title=post.title+' | Qivbuild';
+ var img=post.img||post.image||'';
+ var html='';
+ if(img)html+='<img class="hero" src="'+img+'" alt="'+esc(post.title)+'" onclick="document.getElementById(\'lbImg\').src=this.src;document.getElementById(\'lb\').classList.add(\'on\')">';
+ html+='<h2 style="font-size:28px;margin:14px 0 6px">'+esc(post.title)+'</h2>';
+ html+='<div class="meta">'+esc(post.date||'')+' · Qivbuild · DHA Phase 8 Lahore</div>';
+ if(post.picCat)html+='<span class="cat">🖼️ Picture: '+esc(post.picCat)+' — Gallery</span>';
+ if(post.footCat)html+='<span class="cat">📝 Content: '+esc(post.footCat)+' — Footer</span>';
+ if(post.cat)html+='<span class="cat">'+esc(post.cat)+'</span>';
+ if(post.keywords)html+='<p class="meta">Keywords: '+esc(post.keywords)+'</p>';
+ html+='<p style="line-height:1.7;font-size:17px">'+esc(post.content||post.text||'')+'</p>';
+ var b1=post.btn1||'Get in touch',l1=post.link1||'https://qivbuild.site/contact.html';
+ var b2=post.btn2||'See more',l2=post.link2||'https://qivbuild.site/gallery.html';
+ html+='<div><a class="pill f" href="'+l1+'">'+esc(b1)+'</a><a class="pill f" href="'+l2+'">'+esc(b2)+'</a><button class="pill" onclick="navigator.clipboard&&navigator.clipboard.writeText(\''+postUrl+'\');alert(\'Link copy ho gaya\')">Copy Post Link</button></div>';
+ html+='<p class="meta">Share link: <a href="'+postUrl+'">'+postUrl+'</a></p>';
+ document.getElementById('postBox').innerHTML=html;
+ // 10 Social Shares
+ var plats=[["Facebook","https://www.facebook.com/sharer/sharer.php?u="],["WhatsApp","https://wa.me/?text="],["Instagram","https://www.instagram.com/"],["Threads","https://www.threads.net/"],["LinkedIn","https://www.linkedin.com/sharing/share-offsite/?url="],["X","https://twitter.com/intent/tweet?url="],["Pinterest","https://pinterest.com/pin/create/button/?url="],["Telegram","https://t.me/share/url?url="],["Email","mailto:?body="],["Copy Link","copy"]];
+ document.getElementById('shareBox').innerHTML='<b style="width:100%">Share this post:</b>'+plats.map(p=>p[1]==='copy'?`<button onclick="navigator.clipboard.writeText('${postUrl}');alert('Link copy ho gaya')">${p[0]}</button>`:`<a href="${p[1]}${encodeURIComponent(postUrl)}" target="_blank" rel="noopener">${p[0]}</a>`).join('');
+ // Views - D1 / local
+ var views={Facebook:0,Instagram:0,WhatsApp:0,Threads:0,LinkedIn:0,X:0,Pinterest:0,Telegram:0,Email:0,CopyLink:0};try{(await (await fetch('/api/views?slug='+encodeURIComponent(pslug))).json()).forEach(function(x){views[String(x.platform).replace(/\s/g,'')]=x.views})}catch(e){}document.getElementById('shareBox').onclick=function(e){var a=e.target.closest('a,button');if(a)fetch('/api/views',{method:'POST',body:JSON.stringify({slug:pslug,platform:a.textContent.trim().replace(/\s/g,'')})}).catch(function(){})};
+ var total=Object.values(views).reduce((a,b)=>a+b,0);
+ document.getElementById('viewBox').innerHTML='<b>👁️ Total Views: '+total+'</b><br>'+Object.entries(views).map(v=>v[0]+': <b>'+v[1]+'</b>').join(' • ');
+ var others=posts.filter(x=>x!==post).slice(0,4);
+ if(others.length){document.getElementById('moreBox').innerHTML='<h3>More Posts</h3>'+others.map(x=>{var s=x.slug||slugify(x.title);return '<div style="display:flex;gap:12px;margin:10px 0"><img src="'+(x.img||'')+'" style="width:90px;height:70px;object-fit:cover;border-radius:10px"><div><a href="https://qivbuild.site/post.html?slug='+encodeURIComponent(s)+'" style="font-weight:700;color:#0b57d0;text-decoration:none">'+esc(x.title)+'</a><div class="meta">'+esc(x.content||'').slice(0,80)+'</div></div></div>'}).join('');}
+}load();
+</script>
+<!-- QIVBUILD PATCH - Design same, sirf system joda gaya -->
+<script>window.QIV={};</script>
+</body></html>

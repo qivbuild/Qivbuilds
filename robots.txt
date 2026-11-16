@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /site-data.json
+Disallow: /worker.js
+Disallow: /wrangler.toml
+Disallow: /admin.html
+Sitemap: https://qivbuild.site/sitemap.xml
+Disallow: /admin
+Disallow: /api/
