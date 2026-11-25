@@ -6,4 +6,3 @@ Disallow: /post-shell.html
 Allow: /
 
 Sitemap: https://qivbuild.site/sitemap.xml
-Sitemap: https://www.qivbuild.site/sitemap.xml
