@@ -2,6 +2,8 @@ User-agent: *
 Disallow: /admin
 Disallow: /api/
 Disallow: /media/admin
-Allow: /
-Sitemap: https://qivbuild.site/sitemap.xml
 Disallow: /post-shell.html
+Allow: /
+
+Sitemap: https://qivbuild.site/sitemap.xml
+Sitemap: https://www.qivbuild.site/sitemap.xml
