@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /admin
-Disallow: /api/
-Disallow: /media/admin
-Disallow: /post-shell.html
-Allow: /
-
-Sitemap: https://qivbuild.site/sitemap.xml
