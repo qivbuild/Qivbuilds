@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin
+Disallow: /api/
+Allow: /api/gallery
+Allow: /api/blog
+Allow: /api/categories
+Allow: /api/partners
+Allow: /api/settings$
+Disallow: /media/admin
+Disallow: /post-shell.html
+Allow: /
+
+Sitemap: https://qivbuild.site/sitemap.xml
