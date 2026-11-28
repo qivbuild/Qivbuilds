@@ -1,0 +1,19 @@
+# Qivbuild
+
+> Qivbuild is a building consultant in DHA Phase 8, Lahore 54000, Pakistan. It offers drawing plans, gray structure, interior, exterior and renovation design, LDA approval drawings, cost estimates and free consultation. Phone: 0343 0107773.
+
+## Main pages
+
+- [Home](https://qivbuild.site/): Overview of Qivbuild services and recent work
+- [About](https://qivbuild.site/about): Who we are and how we work
+- [Services](https://qivbuild.site/services): Drawing plans, gray structure, interior, exterior, renovation
+- [By Owner](https://qivbuild.site/byowner): Properties and projects listed by owners
+- [Gallery](https://qivbuild.site/gallery): Project photos by category
+- [Blog](https://qivbuild.site/blog): Articles on building and design in Lahore
+- [Reviews](https://qivbuild.site/reviews): Client reviews
+- [Contact](https://qivbuild.site/contact): Phone, WhatsApp and location
+- [Opening hours](https://qivbuild.site/hours): Office timings
+
+## Optional
+
+- [Sitemap](https://qivbuild.site/sitemap.xml): Full list of pages and posts
